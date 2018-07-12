@@ -19,7 +19,8 @@ namespace SimpleWebView
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            wvc.Navigate(new Uri(path.Text));
+            //Copy test.html in C:\Users\[USER]\AppData\Local\Packages\[PACKAGE]\LocalState\tests
+            wvc.Navigate(new Uri("ms-appdata:///local/tests/test.html"));
         }
     }
 }
