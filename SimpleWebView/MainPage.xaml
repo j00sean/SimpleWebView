@@ -10,7 +10,6 @@
 
     <Grid>
         <WebView x:Name="wvc" HorizontalAlignment="Center" Height="400" VerticalAlignment="Top" Width="1740" RenderTransformOrigin="0.26,0.557" Margin="0,0,-2,0"/>
-        <TextBox x:Name="path" HorizontalAlignment="Left" Margin="10,409,0,0" Text="http://127.0.0.1:8080/test.html" VerticalAlignment="Top" Width="279" Height="40" TextAlignment="Left" FontFamily="Microsoft Sans Serif" FontSize="12" FontWeight="Bold" FontStyle="Normal" InputScope="Default" CompositeMode="Inherit"/>
-        <Button x:Name="button1" Content="Run" HorizontalAlignment="Left" Margin="341,409,0,0" VerticalAlignment="Top" Width="96" Height="40" RenderTransformOrigin="0.478,0.556" FontWeight="Bold" FontFamily="Microsoft Sans Serif" FontSize="12" Background="Red" Foreground="White" Click="button1_Click"/>
+        <Button x:Name="button1" Content="Run" HorizontalAlignment="Left" Margin="86,421,0,0" VerticalAlignment="Top" Width="96" Height="40" RenderTransformOrigin="0.478,0.556" FontWeight="Bold" FontFamily="Microsoft Sans Serif" FontSize="12" Background="Red" Foreground="White" Click="button1_Click"/>
     </Grid>
 </Page>
