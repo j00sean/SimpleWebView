@@ -20,7 +20,6 @@ namespace SimpleWebView
         private void button1_Click(object sender, RoutedEventArgs e)
         {
             wvc.Navigate(new Uri(path.Text));
-            //wvc.Navigate(new Uri("ms-appdata:///local/tests/test.html"));
         }
     }
 }
