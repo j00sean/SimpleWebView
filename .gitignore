@@ -173,7 +173,7 @@ rcf/
 
 # Windows Store app package directories and files
 # AppPackages/
-SimpleWebView_1.0.0.0_Test
+SimpleWebView_1.0.0.0_Test/
 BundleArtifacts/
 Package.StoreAssociation.xml
 _pkginfo.txt
